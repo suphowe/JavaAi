@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.ProgressIndicator?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.xiaohao.ui.Controller">
+   <children>
+      <Button fx:id="button" layoutX="260.0" layoutY="100.0" mnemonicParsing="false" text="选择图片" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="130.0" layoutY="36.0" prefHeight="20.0" prefWidth="345.0" text="图像文字识别的小工具，需要联网，选择文件即可。">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Pane layoutX="2.0" layoutY="147.0" prefHeight="248.0" prefWidth="600.0">
+         <TextArea fx:id="textArea" prefHeight="244.0" prefWidth="600.0">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </TextArea>
+      </Pane>
+   </children>
+</AnchorPane>
